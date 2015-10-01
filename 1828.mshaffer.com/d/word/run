@@ -1,0 +1,859 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> Browse 1828 => Word RUN :: Search the 1828 Noah Webster's Dictionary of the English Language (FREE) :: 1828.mshaffer.com </TITLE>
+<META NAME="Generator" CONTENT="monte.shaffer@gmail.com">
+<meta name="robots" content="index,follow">
+<META name="verify-v1" content="Bk4vbguA2YRvKiwOaDnZtFP5/6jmqRm7F9NAaW8CPF4=" /> 
+<link rel="icon" href="../../favicon.ico"> 
+
+<SCRIPT>
+/*
+function getGoogleprRpcUrl() {
+    var urls = ['http://phprpc-gpr.appspot.com/',
+                'http://phprpc-gpr1.appspot.com/',
+                'http://phprpc-gpr2.appspot.com/',
+                'http://phprpc-gpr3.appspot.com/',
+                'http://phprpc-gpr4.appspot.com/',
+                'http://phprpc-gpr5.appspot.com/',
+                'http://phprpc-gpr6.appspot.com/',
+                'http://phprpc-gpr7.appspot.com/',
+                'http://phprpc-gpr8.appspot.com/',
+                'http://phprpc-gpr9.appspot.com/']
+    return urls[Math.floor(Math.random() * urls.length)];
+}
+
+var googlepr_rpc = new PHPRPC_Client(getGoogleprRpcUrl(), ['googlepr']);
+
+function showGooglePR(result) {
+    var googlepr_container = document.getElementById('googlepr_container');
+    var googlepr_bar = document.getElementById('googlepr_bar');
+    var googlepr_rank = document.getElementById('googlepr_rank');
+    googlepr_container.title = googlepr_bar.title = "PageRank: " + (result == 0 ? 'unranked' : result) + " | Powered by PHPRPC";
+    googlepr_rank.style.width = (result << 2) + "px";
+}
+
+function googlePR() {
+    googlepr_rpc.googlepr(location.href, function (result) {
+        result = parseInt(result);
+        if (isNaN(result)) return;
+        showGooglePR(result);
+        googlepr_rpc.dispose();
+        googlepr_rpc = null;
+    });
+}
+
+*/
+</SCRIPT>
+<SCRIPT>
+function addProvider(url) 
+	{
+
+	try {
+		window.external.AddSearchProvider(url);
+		} 
+		catch (e) 
+			{
+			alert("You need to be using IE7 or Firefox2 to add a search engine\r\nYou can also install search plugins by using the drop down menu to the right of the search box.");
+			return;
+			}
+	}
+
+function showLargeImage(obj,which)
+	{
+	var mObj = document.getElementById("_largeImage");
+	
+	var args = showLargeImage.arguments;
+	if(which == "over")
+		{		
+		mObj.style.display = "block";
+		mObj.innerHTML = '<IMG src="'+((args[4])&#32;?%2520args[4]%2520:%2520obj.src)+'" name="largeImage"  width='+((args[2]) ? args[2] : 300)+' height='+((args[3]) ? args[3] : 300)+' border=5 />';	
+
+		myPos = getPositionDIV(obj.id);
+
+		setPositionDIV("_largeImage",myPos.x + document.images[obj.name].width +1,myPos.y);		
+		}
+		else
+			{
+			// out
+			mObj.style.display = "none";
+			}
+	}
+
+function getPositionDIV(id){
+	obj = document.getElementById(id);
+		var left = 0;
+		var top  = 0;
+		
+		
+		while (obj.offsetParent){
+			left += obj.offsetLeft;
+			top  += obj.offsetTop;
+			obj   = obj.offsetParent;
+		}
+		left += obj.offsetLeft;
+		top  += obj.offsetTop;
+			
+
+		return {"x":left, "y":top};
+	}
+function setPositionDIV(id,x,y){
+	obj = document.getElementById(id);
+		obj.style.top	= "" + y + "px";
+		obj.style.left	= "" + x + "px";
+
+	}
+
+function toggleDIV(id)
+	{
+	obj = document.getElementById(id);
+
+	//alert(obj.style.display);
+
+	obj.style.display = (obj.style.display == "none") ? "block" : "none";
+	}
+
+var _myURL = 'http://1828.mshaffer.com/d/word/run';
+
+var _myWord = 'run';
+
+
+
+function isFunction(a) {
+    return typeof a == 'function';
+}
+function isObject(a) {
+    return (a && typeof a == 'object') || isFunction(a);
+}
+function isArray(a) {
+    return isObject(a) && a.constructor == Array;
+}
+
+function getSearch()
+	{
+	var myArr = null;
+	var myS = document.URL.indexOf('search/');
+	if (myS != -1)
+		{
+		myArr = document.URL.substring(myS+7, document.URL.length).split(',');
+		}
+	return myArr;
+	}
+function getVARS()
+	{
+	var myIndex = document.URL.indexOf('?');
+	var myKeys = "";
+	var myValues = "";	
+	if (myIndex != -1)
+		{
+		var pairs = document.URL.substring(myIndex+1, document.URL.length).split('&');		
+			for (var i=0; i<pairs.length; i++)
+				{
+				nameVal = pairs[i].split('=');
+				if(nameVal[0])
+					{
+					eval(unescape(nameVal[0])+" = '" + unescape(nameVal[1]) + "';");
+					//alert(unescape(nameVal[0])+" = '" + unescape(nameVal[1]) + "';");
+					
+					}
+				}		
+		}
+	}
+
+function isObject(a) {
+    return (a && typeof a == 'object') || isFunction(a);
+}
+function hideDIV(id)
+	{
+	obj = document.getElementById(id);
+
+	if (isObject(obj))
+		{
+
+	var args = hideDIV.arguments;
+		extra = (args[1]) ? args[1] : false;
+
+	//alert(obj.style.display);
+
+	if(extra)
+		{
+		obj.style.visibility = "hidden";
+		}
+		else
+			{
+			
+					obj.style.display = "none";
+					
+			}
+		}
+
+	}
+function showDIV(id)
+	{
+	obj = document.getElementById(id);
+
+	var args = showDIV.arguments;
+		extra = (args[1]) ? args[1] : false;
+
+	//alert(obj.style.display);
+
+	if(extra)
+		{
+		obj.style.visibility = "visible";
+		}
+		else
+			{
+			obj.style.display = "block";
+			}
+
+	}
+function showHideStuff(plus,show)
+	{
+	var newString;
+
+	var plusObj = document.getElementById(plus);
+	var showObj = document.getElementById(show);
+
+	if(plusObj.innerHTML == "[ + ]")
+		{
+		// need to expand
+		newString = "[ - ]";
+		showDIV(show);
+		
+		}
+			else
+				{
+				newString = "[ + ]";
+				// hide
+				hideDIV(show);
+				}
+
+
+	plusObj.innerHTML = newString;
+	}
+</SCRIPT>
+<STYLE>
+
+a:link, a:visited, a:active
+{
+color: #003300;
+text-decoration: none;
+
+}
+a:hover
+{
+color: #006600;
+text-decoration: underline;
+
+}
+TD#url
+{
+	color: #DAD496;
+	letter-spacing: 12px;
+	font-size: 24px;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+}
+.toc
+{
+	color: #ffffff;
+}
+.toc a:link, .toc a:visited, .toc a:active
+{
+	display: block; 
+width: 100%;
+background-color: #465131;
+	color: #ffffff;
+
+}
+.toc a:hover 
+	{
+	background-color: #7B8B4C;
+	text-decoration: underline;
+		
+	}
+
+.footer
+{
+	color: #ffffff;
+}
+.footer a:link, .footer a:visited, .footer a:active
+{
+	display: block; 
+width: 100%;
+background-color: #465131;
+	color: #ffffff;
+
+}
+.footer a:hover 
+	{
+	background-color: #7B8B4C;
+	text-decoration: underline;
+		
+	}
+blockquote {
+
+  background: transparent url(../../images/quote_left.png) left top no-repeat;
+}
+blockquote div {
+  padding: 0 48px;
+  width: 400px;
+  background: transparent url(../../images/quote_right.png) right bottom no-repeat;
+}
+
+#myDate
+{
+	font-weight: bold;
+	color: #ffffff;
+}
+
+DIV.dictionary H1 a:link, DIV.dictionary H1 a:visited, DIV.dictionary H1 a:active
+{
+color:  #7B8B4C;
+
+}
+
+DIV.dictionary H1 a:hover
+{
+color:  #465131;
+
+}
+
+DIV.dictionary p
+{
+color:  #465131;
+
+}
+
+DIV.dictionary p b
+{
+color:  #DAD496;
+font-weight: bold;
+}
+
+DIV.dictionary p DD
+{
+color:  #465131;
+}
+
+</STYLE>
+<script src="../../cjl_cookie.js" type="text/javascript"></script>
+</HEAD>
+
+<BODY bgcolor="#000000">
+
+
+<TABLE width="810" align="center"cellpadding=5 cellspacing=0 bgcolor="#6D7D3F">
+	<TR>
+		<TD align="left"><a href="http://colors.mshaffer.com/?c=6D7D3F" target="_colors"><IMG id="c_picker_small" name="c_picker_small" src="../../images/picker_small.png" onmouseover="showLargeImage(this,'over', 650, 483,'/images/picker_large.png');" onmouseout="showLargeImage(this,'out');" border=1 align="right" width=30 height=26 hspace=3 ALT="Free Online Color Picker Harmony Tool!" TITLE="Free Online Color Picker Harmony Tool!" /></a></TD>
+		<TD id="url" align="right">http://1828.mshaffer.com</TD>
+	</TR>
+</TABLE>
+<TABLE width="810" align="center" bgcolor="#465131" cellpadding=5 cellspacing=0>
+	<TR>
+		<TD valign="middle" align="right"><DIV id="myDate">Thursday - October 1, 2015</DIV></TD>			
+	</TR>
+</TABLE>
+<TABLE width="800" align="center" bgcolor="#6B7A41" cellpadding=5 cellspacing=0>
+	<TR>
+		<TD width="100%">
+			<TABLE width="800" align="center" bgcolor="#7B8B4C" cellpadding=3 cellspacing=3 border=0>
+				
+				<TD><h4>
+
+				<!--<DIV style="background-color: #eeeeee;">//-->
+				<DIV style="color: #465131;">
+					<BLOCKQUOTE>
+						<DIV>
+					In my view, the Christian religion is the most important and one of the first things in which all children, under a free government ought to be instructed..
+.No truth is more evident to my mind than that the Christian religion must be the basis of any government intended to secure the rights and privileges of a free people.
+
+					<BR />
+					<SPAN style="float: right;">- Preface</SPAN>
+					<BR />
+					<BR />
+						</DIV>
+					</BLOCKQUOTE>
+				</DIV>
+				
+				</h4>
+				
+				</TD>
+
+				<TD width=160 align="right"><a href="../../index.html"><IMG src="../../images/noah_webster.gif" border=0 width=150 ALT="1828 Noah Webster Dictionary" /></a></TD>
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+
+<TABLE width="810" align="center" bgcolor="#465131" cellpadding=5 cellspacing=0>
+	<TR>
+		<TH class="toc" width="4%" valign="middle"><a href="../browse/letter,a"  class="toc" title="Browse the Dictionary [Letter A] (Who says people don't read dictionaries?!?)">A</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,b"  class="toc" title="Browse the Dictionary [Letter B] (Who says people don't read dictionaries?!?)">B</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,c"  class="toc" title="Browse the Dictionary [Letter C] (Who says people don't read dictionaries?!?)">C</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,d"  class="toc" title="Browse the Dictionary [Letter D] (Who says people don't read dictionaries?!?)">D</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,e"  class="toc" title="Browse the Dictionary [Letter E] (Who says people don't read dictionaries?!?)">E</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,f"  class="toc" title="Browse the Dictionary [Letter F] (Who says people don't read dictionaries?!?)">F</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,g"  class="toc" title="Browse the Dictionary [Letter G] (Who says people don't read dictionaries?!?)">G</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,h"  class="toc" title="Browse the Dictionary [Letter H] (Who says people don't read dictionaries?!?)">H</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,i"  class="toc" title="Browse the Dictionary [Letter I] (Who says people don't read dictionaries?!?)">I</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,j"  class="toc" title="Browse the Dictionary [Letter J] (Who says people don't read dictionaries?!?)">J</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,k"  class="toc" title="Browse the Dictionary [Letter K] (Who says people don't read dictionaries?!?)">K</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,l"  class="toc" title="Browse the Dictionary [Letter L] (Who says people don't read dictionaries?!?)">L</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,m"  class="toc" title="Browse the Dictionary [Letter M] (Who says people don't read dictionaries?!?)">M</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,n"  class="toc" title="Browse the Dictionary [Letter N] (Who says people don't read dictionaries?!?)">N</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,o"  class="toc" title="Browse the Dictionary [Letter O] (Who says people don't read dictionaries?!?)">O</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,p"  class="toc" title="Browse the Dictionary [Letter P] (Who says people don't read dictionaries?!?)">P</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,q"  class="toc" title="Browse the Dictionary [Letter Q] (Who says people don't read dictionaries?!?)">Q</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,r"  class="toc" title="Browse the Dictionary [Letter R] (Who says people don't read dictionaries?!?)">R</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,s"  class="toc" title="Browse the Dictionary [Letter S] (Who says people don't read dictionaries?!?)">S</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,t"  class="toc" title="Browse the Dictionary [Letter T] (Who says people don't read dictionaries?!?)">T</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,u"  class="toc" title="Browse the Dictionary [Letter U] (Who says people don't read dictionaries?!?)">U</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,v"  class="toc" title="Browse the Dictionary [Letter V] (Who says people don't read dictionaries?!?)">V</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,w"  class="toc" title="Browse the Dictionary [Letter W] (Who says people don't read dictionaries?!?)">W</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,x"  class="toc" title="Browse the Dictionary [Letter X] (Who says people don't read dictionaries?!?)">X</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,y"  class="toc" title="Browse the Dictionary [Letter Y] (Who says people don't read dictionaries?!?)">Y</a></TH><TH class="toc" width="4%" valign="middle"><a href="../browse/letter,z"  class="toc" title="Browse the Dictionary [Letter Z] (Who says people don't read dictionaries?!?)">Z</a></TH>			
+	</TR>
+</TABLE>
+
+
+<TABLE width="810" align="center" bgcolor="#465131" cellpadding=5 cellspacing=0>
+	<TR>
+		<TD align="center" valign="top">
+		<script type="text/javascript"><!--
+			google_ad_client = "ca-pub-2361725393402938";
+			/* More ADS */
+			google_ad_slot = "1406127053";
+			google_ad_width = 728;
+			google_ad_height = 90;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>	
+		</TD>
+	</TR>
+</TABLE>
+
+
+
+
+<TABLE width="810" align="center" cellpadding=5 cellspacing=0>
+	<TR>
+		<TD valign="top" align="left" bgcolor="#cccccc" colspan=2><A href="../../index.html">Our main website, is back up, we apologize for the hadware issues.</a></TD>
+	</TR>
+	<!--
+	<TR>
+		<TD valign="top" align="left" bgcolor="#cccccc" colspan=2><A href="http://www.1828-dictionary.com/"><IMG align="left" border=0 src="/images/new.png" hspace=3 vspace=3 /></A>In celebration of Noah Webster's Birthday (October 16, 2009), we have prepared an updated website.  <BR />Please update your bookmarks:  <A href="http://www.1828-dictionary.com/d/word/run">http://www.1828-dictionary.com/d/word/run</A></TD>
+	</TR>
+	//-->
+	<TR>
+
+		<TD valign="top" align="left" bgcolor="#ffffff">
+		
+		<!--
+		<DIV>
+			<span id="googlepr_container">PageRank<span id="googlepr_bar">
+				<span id="googlepr_border">
+					<span id="googlepr_rank"></span>
+				</span>
+			</span>
+		</DIV>
+
+		<script type="text/javascript">googlePR();</script>
+//-->
+		
+		<BR />
+<SCRIPT>
+	function storeCookie(category,keywords)
+		{
+		var c_search_1828 = new CJL_CookieUtil("session_cookie",null,"/");
+			c_search_1828.setSubValue("category", category);
+			c_search_1828.setSubValue("keywords", keywords);
+
+		}
+	function searchPlugin()
+		{
+
+		}
+	function submit1828Search()
+		{
+		document.search_1828.submitMe.disabled=true;
+
+		category = document.search_1828.category[document.search_1828.category.selectedIndex].value;
+
+		keywords = document.search_1828.keywords.value;
+
+		if(!keywords){keywords = "sample";}
+
+
+
+		// set Cookie
+		storeCookie(category,keywords);
+
+
+
+		
+
+
+		// build URL
+
+		
+		keywords = keywords.split(" ").join("+");
+
+		myURL = "/d/search/"+category+","+keywords;
+
+		window.location = (myURL);
+
+		return false;
+
+		}
+</SCRIPT>
+<FORM name="search_1828" onSubmit="return submit1828Search();">
+	<TABLE align="center">
+		<TR>
+			<TD>
+				<SELECT name="category" onChange="document.search_1828.keywords.focus();" style="background-color: #465131; color: #DAD496; font-weight: bold;">
+					<OPTION value="word">Word
+					<OPTION value="string">Definition
+				</SELECT>
+			</TD>
+			<TD>
+				<INPUT name="keywords" type="text" onFocus="this.select();" style="background-color: #465131; color: #DAD496; font-weight: bold;">
+			</TD>
+			<TD>
+				<INPUT name="submitMe" type="button" value="Search !" name="submitMe" onClick="submit1828Search();">
+			</TD>
+		</TR>
+	</TABLE>
+</FORM>
+
+<SCRIPT>
+	// store from URL, then from cookie if not found!
+	myArr = getSearch();
+
+	if(isArray(myArr))
+		{
+		var tKeywords = myArr[1].split("+").join(" ");
+			var tKeywordsA = tKeywords.split("?");
+			document.search_1828.keywords.value = tKeywordsA[0];
+			
+		for(i=0; i<document.search_1828.category.length;i++)
+			{
+			if (myArr[0]==document.search_1828.category[i].value)
+				{
+				document.search_1828.category[i].selected = true;
+				break;
+				}
+			}
+			// if from plugin
+			if(tKeywords[1] != undefined){storeCookie(document.search_1828.category[i].value,document.search_1828.keywords.value);}
+		
+
+
+		}
+	else
+		{
+		// from cookie
+
+		var c_search_1828 = new CJL_CookieUtil("session_cookie",null,"/");
+
+			//alert(c_search_1828.getSubValue("keywords"));
+
+			   document.search_1828.keywords.value = (c_search_1828.getSubValue("keywords") != undefined) ? c_search_1828.getSubValue("keywords").split("+").join(" ") : "";
+
+			document.search_1828.category[0].selected = true;
+			for(i=0; i<document.search_1828.category.length;i++)
+				{
+				if (c_search_1828.getSubValue("category")==document.search_1828.category[i].value)
+					{
+					document.search_1828.category[i].selected = true;
+					}
+				}
+		
+		}
+
+	
+
+	
+
+	
+	//alert(myArr[0]+" "+myArr[1]);
+
+	
+</SCRIPT><TABLE width="80%" align="center"><TR><TD align="left"><DIV class="dictionary"><H1><a href="run" title="[47503] 3 ">run</a></H1><SPAN><p><b>RUN,</b> v.i. pret. ran or run; pp. run.<p><DD>1.  To move or pass in almost any manner, as on the feet or on wheels.  Men and other animals run on their feet; carriages run on wheels, and wheels run on their axle-trees.<p><DD>2.  To move or pass on the feet with celerity or rapidity, by leaps or long quick steps; as, men and quadrupeds run when in haste.<p><DD>3.  To use the legs in moving; to step; as, children run alone or run about.<p><DD>4.  To move in a hurry.<p><DD>The priest and people run about.<p><DD>5.  To proceed along the surface; to extend; to spread; as, the fire runs over a field or forest.<p><DD>The fire ran along upon the ground.  Ex. 9.<p><DD>6.  To rush with violence; as, a ship runs against a rock; or one ship runs against another.<p><DD>7.  To move or pass on the water; to sail; as, ships run regularly between New York and Liverpool.  Before a storm, run into a harbor, or under the lee of the land.  The ship has run ten knots an hour.<p><DD>8.  To contend in a race; as, men or horses run for a prize.<p><DD>9.  To flee for escape.  When General Wolfe was dying, an officer standing by him exclaimed, see how they run.  Who run? said the dying hero.  The enemy, said the officer.  Then I die happy, said the general.<p><DD>10.  To depart privately; to steal away.<p><DD>My conscience will serve me to run from this Jew, my master.<p><DD>11.  To flow in any manner, slowly or rapidly;  to move or pass; as a fluid.  Rivers run to the ocean or to lakes.  The Connecticut runs on sand, and its water is remarkably pure.  The tide runs two or three miles an hour.  Tears run down the cheeks.<p><DD>12.  To emit; to let flow.<p><DD>I command that the conduit run nothing but claret.<p><DD>Rivers run potable gold.<p><DD>But this form of expression is elliptical, with being omitted; "rivers run with potable gold."<p><DD>13.  To be liquid or fluid.<p><DD>As wax dissolves, as ice begin to run -<p><DD>14.  To be fusible; to melt.<p><DD>Sussex iron ores run freely in the fire.<p><DD>15.  To fuse; to melt.<p><DD>Your iron must not burn in the fire, that is, run or melt, for then it will be brittle.<p><DD>16.  To turn; as, a wheel runs on an axis or on a pivot.<p><DD>17.  To pass; to proceed; as, to run through a course of business; to run through life; to run in a circle or a line; to run through all degrees of promotion.<p><DD>18.  To flow, as words, language or periods.  The lines run smoothly.<p><DD>19.  To pass, as time.<p><DD>As fast as our time runs, we should be glad in most part of our lives that it ran much faster.<p><DD>20.  To have a legal course; to be attached to; to have legal effect.<p><DD>Customs run only upon our goods imported or exported, and that but once for all; whereas interest runs as well upon our ships as goods, and must be yearly paid.<p><DD>21.  To have a course or direction.<p><DD>Where the generally allowed practice runs counter to it.<p><DD>Little is the wisdom, where the flight so runs against all reason.<p><DD>22.  To pass in thought, speech or practice; as, to run through a series of arguments; to run from one topic to another.<p><DD>Virgil, in his first Georgic, has run into a set of precepts foreign to his subject.<p><DD>23.  To be mentioned cursorily or in few words.<p><DD>The whole runs on short, like articles in an account.<p><DD>24.  To have a continued tenor or course.  The conversation ran on the affairs of the Greeks.<p><DD>The king's ordinary style runneth, "our sovereign lord the king."<p><DD>25.  To be in motion; to speak incessantly.  Her tongue runs continually.<p><DD>26.  To be busied; to dwell.<p><DD>When we desire any thing, our minds run wholly on the good circumstances of it; when it is obtained, our minds run wholly on the bad ones.<p><DD>27.  To be popularly known.<p><DD>Men gave then their own names, by which they run a great while in Rome.<p><DD>28.  To be received; to have reception, success or continuance.  The pamphlet runs well among a certain class of people.<p><DD>29.  To proceed in succession.<p><DD>She saw with joy the line immortal run, each sire impress'd and glaring in his son.<p><DD>30.  To pass from one state or condition to another; as, to run into confusion or error; to run distracted.<p><DD>31.  To proceed in a train of conduct.<p><DD>You should run a certain course.<p><DD>32.  To be in force.<p><DD>The owner hath incurred the forfeiture of eight years profits of his lands, before he cometh to the knowledge of the process that runneth against him.<p><DD>33.  To be generally received.<p><DD>He was not ignorant what report run of himself.<p><DD>34.  To be carried; to extend; to rise; as, debates run high.<p><DD>In popish countries, the power of the clergy runs higher.<p><DD>35.  To have a track or course.<p><DD>Searching the ulcer with my probe, the sinus run up above the orifice.<p><DD>36.  To extend; to lie in continued length.  Veins of silver run in different directions.<p><DD>37.  To have a certain direction.  The line runs east and west.<p><DD>38.  To pass in an orbit of any figure.  The planets run their periodical courses.  The comets do not run lawless through the regions of space.<p><DD>39.  To tend in growth or progress.  Pride is apt to run into a contempt of others.<p><DD>40.  To grow exuberantly.  Young persons of 10 or 12 years old, soon run up to men and women.<p><DD>If the richness of the ground cause turnips to run to leaves, treading down the leaves will help their rooting.<p><DD>41.  To discharge pus or other matter; as, an ulcer runs.<p><DD>42.  To reach; to extend to the remembrance of; as time out of mind, the memory of which runneth not to the contrary.<p><DD>43.  To continue in time, before it becomes due and payable; as, a note runs thirty days; a note of six months has ninety days to run.<p><DD>44.  To continue in effect, force or operation.<p><DD>The statute may be prevented from running - by the act of the creditor.<p><DD>45.  To press with numerous demands of payment; as, to run upon a bank.<p><DD>46.  To pass or fall into fault, vice or misfortune; as, to run into vice; to run into evil practices; to run into debt; to run into mistakes.<p><DD>47.  To fall or pass by gradual changes; to make a transition; as, colors run one into another.<p><DD>48.  To have a general tendency.<p><DD>Temperate climates run into moderate governments.<p><DD>49.  To proceed as on a ground or principle.  Obs.<p><DD>50.  To pass or proceed in conduct or management.<p><DD>Tarquin, running into all the methods of tyranny, after a cruel reign was expelled.<p><DD>51.  To creep; to move by creeping or crawling; as, serpents run on the ground.<p><DD>52.  To slide; as, a sled or sleigh runs on the snow.<p><DD>53.  To dart; to shoot; as a meteor in the sky.<p><DD>54.  To fly; to move in the air; as, the clouds run from N.E. to S.W.<p><DD>55.  In Scripture, to pursue or practice the duties of religion.<p><DD>Ye did run well; who did hinder you?  Gal. 5.<p><DD>56.  In elections, to have interest or favor; to be supported by votes.  The candidate will not run, or he will run well.<p><DD><DD>1.  To run after, to pursue or follow.<p><DD><DD>2.  To search for; to endeavor to find or obtain; as, to run after similes.<p><DD>To run at, to attack with the horns, as a bull.<p><DD>To run away, to flee; to escape.<p><DD><DD>1.  To run away with, to hurry without deliberation.<p><DD><DD>2.  To convey away; or to assist in escape or elopement.<p><DD>To run in, to enter; to step in.<p><DD>To run into, to enter; as, to run into danger.<p><DD>To run in trust, to run in debt; to get credit.  [Not in use.]<p><DD><DD>1.  To run in with, to close; to comply; to agree with.  [Unusual.]<p><DD><DD>2.  To make towards; to near; to sail close to; as, to run in with the land; a seaman's phrase.<p><DD>To run down a coast, to sail along it.<p><DD><DD>1.  To run on, to be continued.  Their accounts had run on for a year or two without a settlement.<p><DD><DD>2.  To talk incessantly.<p><DD><DD>3.  To continue a course.<p><DD><DD>4.  To press with jokes or ridicule; to abuse with sarcasms; to bear hard on.<p><DD>To run over, to overflow; as, a cup runs over; or the liquor runs over.<p><DD><DD>1.  To run out, to come to an end; to expire; as, a lease runs out at Michaelmas.<p><DD><DD>2.  To spread exuberantly; as, insectile animals run out into legs.<p><DD><DD>3.  To expatiate; as, to run out into beautiful digressions.  He runs out in praise of Milton.<p><DD><DD>4.  To be wasted or exhausted; as, an estate managed without economy, will soon run out.<p><DD><DD>5.  To become poor by extravagance.<p><DD><DD>And had her stock been less, no doubt she must have long ago run out.<p><DD>To run up, to rise; to swell; to amount.  Accounts of goods credited run up very fast.<p><b>RUN,</b> v.t.<p><DD>1.  To drive or push; in a general sense.  Hence to run a sword through the body, is to stab or pierce it.<p><DD>2.  To drive; to force.<p><DD>A talkative person runs himself upon great inconveniences, by blabbing out his own or others' secrets.<p><DD>Others accustomed to retired speculations, run natural philosophy into metaphysical notions.<p><DD>3.  To cause to be driven.<p><DD>They ran the ship aground.  Acts 27.<p><DD>4.  To melt; to fuse.<p><DD>The purest gold must be run and washed.<p><DD>5.  To incur; to encounter; to run the risk or hazard of losing one's property.  To run the danger, is a phrase not now in use.<p><DD>6.  To venture; to hazard.<p><DD>He would himself be in the Highlands to receive them, and run his fortune with them.<p><DD>7.  To smuggle; to import or export without paying the duties required by law; as, to run goods.<p><DD>8.  To pursue in thought; to carry in contemplation; as, to run the world back to its first original.<p><DD>I would gladly understand the formation of a soul, and run it up to its punctum saliens.<p><DD>9.  To push; to thrust; as, to run the hand into the pocket or the bosom; to run a nail into the foot.<p><DD>10.  To ascertain and mark by metes and bounds; as, to run a line between towns or states.<p><DD>11.  To cause to ply; to maintain in running or passing; as, to run a stage coach from London to Bristol; to run a line of packets from New Haven to New York.<p><DD>12.  To cause to pass; as, to run a rope through a block.<p><DD>13.  To found; to shape, form or make in a mold; to cast; as, to run buttons or balls.<p><DD><DD>1.  To run down, in hunting, to chase to weariness; as, to run down a stag.<p><DD><DD>2.  In navigation, to run down a vessel, is to run against her, end on, and sink her.<p><DD><DD>3.  To crush; to overthrow; to overbear.<p><DD><DD>Religion is run down by the license of these times.<p><DD>1.  To run hard, to press with jokes, sarcasm or ridicule.<p><DD>2.  To urge or press importunately.<p><DD><DD>1.  To run over, to recount in a cursory manner; to narrate hastily; as, to run over the particulars of a story.<p><DD><DD>2.  To consider cursorily.<p><DD><DD>3.  To pass the eye over hastily.<p><DD>1.  To run out, to thrust or push out; to extend.<p><DD>2.  To waste; to exhaust; as, to run out an estate.<p><DD>To run through, to expend; to waste; as, to run through an estate.<p><DD><DD>1.  To run up, to increase; to enlarge by additions.  A man who takes goods on credit, is apt to run up his account to a large sum before he is aware of it.<p><DD><DD>2.  To thrust up, as any thing long and slender.<p><b>RUN,</b> n.<p><DD>1.  The act of running.<p><DD>2.  Course; motion; as the run of humor.<p><DD>3.  Flow; as a run of verses to please the ear.<p><DD>4.  Course; process; continued series; as the run of events.<p><DD>5.  Way; will; uncontrolled course.<p><DD>Our family must have their run.<p><DD>6.  General reception; continued success.<p><DD>It is impossible for detached papers to have a general run or long continuance, if not diversified with humor.<p><DD>7.  Modish or popular clamor; as a violent run against university education.<p><DD>8.  A general or uncommon pressure on a bank or treasury for payment of its notes.<p><DD>9.  The aftmost part of a ship's bottom.<p><DD>10.  The distance sailed by a ship; as, we had a good run.<p><DD>11.  A voyage; also, an agreement among sailors to work a passage from one place to another.<p><DD>12.  A pair of mill-stones.  A mill has two, four or six runs of stones.<p><DD>13.  Prevalence; as, a disease, opinion or fashion has its run.<p><DD>14.  In the middle and southern states of America, a small stream; a brook.<p><DD>In the long run, [at the long run, not so generally used,] signifies the whole process or course of things taken together; in the final result; in the conclusion or end.<p><DD>The run of mankind, the generality of people.</SPAN></DIV></TD></TR></TABLE><HR /><BR /><BR /><BR /><BR /><BR ><BR /><BR /><BR /><BR /><BR >
+
+
+
+							<BR /><BR />
+								<SPAN><IMG src="../../images/noah_webster_dictionary_1828_small.jpg"  ALT="1828 Noah Webster Dictionary" /></SPAN>
+							<BR /><BR />
+		
+				<!--
+				<TABLE width="100%" align="center" bgcolor="#009900" cellpadding=5 cellspacing=0>
+					<TR>
+						<TD align="right"><IMG src="/images/go_to_your_home_ball.gif" /></TD>
+					</TR>
+				</TABLE>
+				//-->
+
+				<TABLE width="100%" align="center" bgcolor="#6B7A41" cellpadding=5 cellspacing=0>
+
+					
+					<TR>
+						<TD colspan="4" align="center" class="footer"  style="color: #ffffff;"><a href="mailto: monte.shaffer@gmail.com?Subject=RE: [http://1828.mshaffer.com/d/word/run]" style="color: #ffffff;">Feedback is Welcome!</a>						
+						</TD>
+					</TR>
+					<!--
+					<TR>
+					
+						<TH class="footer" width="25%"><a  class="footer" href="http://www.stop-the-shanks.com/" title="Stop-The-Shanks">Stop The Shanks</a></TH>
+						<TH class="footer" width="25%"><a  class="footer" href="http://www.ben-hogans-secret.com/" title="Ben Hogan's Swing Secret">Ben Hogan's Swing Secret</a></TH>
+						<TH class="footer" width="25%"><a  class="footer" href="http://www.perfect-your-golf-swing.com/" title="Perfect Your Golf Swing">Perfect Your Golf Swing</a></TH>
+						<TH class="footer" width="25%"><a  class="footer" href="http://www.principles-of-golf.com/" title="Principles of Golf">Principles of Golf</a></TH>
+							
+					</TR>
+
+					<TR>
+						<TD colspan=4 bgcolor="#ffffff"><IMG src="images/transparent.gif" height=1 width=1 /></TD>
+					</TR>
+					<TR>
+						<TD colspan=4 bgcolor="#ffffff"><IMG src="images/transparent.gif" height=1 width=1 /></TD>
+					</TR>
+					//-->
+					
+					<TR>
+						<TD colspan=4 bgcolor="#ffffff">						
+						
+								
+
+							<!-- SiteSearch Google -->
+<form method="get" action="http://1828.mshaffer.com/google.dictionary" target="_top" name="google_search_form9">
+<TABLE width="100%" align="center" bgcolor="#ffffff" cellpadding=5 cellspacing=0>
+
+<tr><td nowrap="nowrap" valign="top" align="left" height="32" bgcolor="#ffffff">
+<a href="http://www.google.com/">
+<img src="http://images.google.com/intl/en/logos/Logo_50wht.gif" border="0" alt="Google" align="middle"></img></a>
+</td>
+<td nowrap="nowrap">
+<input type="hidden" name="domains" value="1828.mshaffer.com"></input>
+<input type="text" name="q" size="31" maxlength="255" value=""></input>
+<input type="submit" name="sa" value="Search" onclick="this.disabled=true;"></input>
+</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td nowrap="nowrap">
+<table>
+<tr>
+<td>
+<input type="radio" name="sitesearch" value="" checked="checked"></input>
+<font size="-1" color="black">Web</font>
+</td>
+<td>
+<input type="radio" name="sitesearch" value="1828.mshaffer.com"></input>
+<font size="-1" color="black">1828.mshaffer.com</font>
+</td>
+</tr>
+</table>
+<input type="hidden" name="client" value="pub-2361725393402938"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="safe" value="active"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:11"></input>
+<input type="hidden" name="hl" value="en"></input>
+</td></tr></TABLE>
+</form>
+<!-- SiteSearch Google -->
+<SCRIPT>
+sitesearch = "";
+getVARS();
+
+if(sitesearch=="www.stop-the-shanks.com")
+	{
+	document.google_search_form9.sitesearch[1].checked = true;
+	}
+	else
+		{
+		document.google_search_form9.sitesearch[0].checked = true;
+		}
+
+if(document.google_search_form9.q.value == "")
+	{
+	document.google_search_form9.q.value = _myWord;
+	}
+</SCRIPT>
+						</TD>
+					</TR>
+
+					
+				</TABLE>
+
+
+
+<A name="donate_now"></A>
+<DIV id="please_donate" style="background-color: #ABEFAB;">
+<h3>
+Why Donate?
+</h3>
+<p>
+	Here are a number of reasons:
+	<ul>
+		<LI />To indicate your approval.
+		<LI />To express your appreciation.
+		<LI />To help pay for website expenses and keep this website online. 
+	</ul>
+</p>
+	<h3>
+Donate Using PayPal
+</h3>
+<p>
+If you have a major credit card (Visa, MasterCard, American Express) or a PayPal account, donating is easy. Just click the dollar amount below to donate:
+</p>
+
+<CENTER>
+<TABLE align="center" border=1 width=450>
+	<TR bgcolor="#ffffff">
+		<TD colspan=6 align="center"><IMG src="http://c.mshaffer.com/images/paypal_solution.png" name="pp_image" alt="Make payments with PayPal - it's fast, free and secure!"  TITLE="Make payments with PayPal - it's fast, free and secure!" /></TD>
+	</TR>
+	<TR>
+		<TD width="16%" align="center" valign="top">$ <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=monte%2eshaffer%40gmail%2ecom&item_name=Thank%20you%20for%20supporting%201828%20Webster%20Dictionary%20%20%20%7B%78%3A%20%20%20%281828%2emshaffer%2ecom%29&item_number=1828_webster&amount=5%2e00&no_shipping=1&cn=Note&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="paypal">5</a></TD>
+		<TD width="16%" align="center" valign="top">$ <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=monte%2eshaffer%40gmail%2ecom&item_name=Thank%20you%20for%20supporting%201828%20Webster%20Dictionary%20%20%20%7B%78%3A%20%20%20%281828%2emshaffer%2ecom%29&item_number=1828_webster&amount=10%2e00&no_shipping=1&cn=Note&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="paypal" target="paypal">10</a></TD>
+		<TD width="16%" align="center" valign="top">$ <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=monte%2eshaffer%40gmail%2ecom&item_name=Thank%20you%20for%20supporting%201828%20Webster%20Dictionary%20%20%20%7B%78%3A%20%20%20%281828%2emshaffer%2ecom%29&item_number=1828_webster&amount=20%2e00&no_shipping=1&cn=Note&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="paypal">20</a></TD>
+		<TD width="16%" align="center" valign="top">$ <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=monte%2eshaffer%40gmail%2ecom&item_name=Thank%20you%20for%20supporting%201828%20Webster%20Dictionary%20%20%20%7B%78%3A%20%20%20%281828%2emshaffer%2ecom%29&item_number=1828_webster&amount=50%2e00&no_shipping=1&cn=Note&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="paypal">50</a></TD>
+		<TD width="16%" align="center" valign="top">$ <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=monte%2eshaffer%40gmail%2ecom&item_name=Thank%20you%20for%20supporting%201828%20Webster%20Dictionary%20%20%20%7B%78%3A%20%20%20%281828%2emshaffer%2ecom%29&item_number=1828_webster&amount=100%2e00&no_shipping=1&cn=Note&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="paypal">100</a></TD>
+		<TD width="17%" align="center" valign="top">$ <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=monte%2eshaffer%40gmail%2ecom&item_name=Thank%20you%20for%20supporting%201828%20Webster%20Dictionary%20%20%20%7B%78%3A%20%20%20%281828%2emshaffer%2ecom%29&item_number=1828_webster&no_shipping=1&cn=Note&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="paypal">Other</a> $</TD>
+	</TR>
+</TABLE>
+</CENTER>	
+
+	<!--
+<CENTER>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <input name="cmd" value="_s-xclick" type="hidden">
+  <input src="http://c.mshaffer.com/images/paypal_solution.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" border="0" type="image">
+  
+ <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+</form>
+</CENTER>
+		//-->
+
+
+&nbsp;
+<h3>
+Donations from Outside of the United States
+</h3>
+<p>
+We welcome donations from anywhere in the world and in any currency. PayPal accepts a number of international currencies.
+</p>
+<h3>
+Donations by Other Methods
+</h3>
+<p>
+If you wish to donate via direct bank deposit or mail a cheque or money order, please 
+<a href="mailto: monte.shaffer@gmail.com">
+email me
+</a>.
+</p>
+
+</DIV>
+
+
+
+				
+		</TD>	
+		
+
+
+				<TD valign="top" align="center" width="160">
+
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-2361725393402938";
+/* old_1828-1 */
+google_ad_slot = "8775175008";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-2361725393402938";
+/* 120x600, created 9/24/09 */
+google_ad_slot = "4187959086";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+<BR /><BR />
+
+
+<A href="run#donate_now"><IMG src="http://c.mshaffer.com/images/make_a_donation.gif" border="0" name="donation_image" alt="Please support this FREE service, by making a donation today!"  title="Please support this FREE service, by making a donation today!" id="donation_image" /></a>
+
+<BR /><BR />
+
+<!-- FIRE FOX plugin //-->
+<TABLE bgcolor="#ffffff" width="100%">
+<TR>
+	<TH colspan=4>Firefox Plugin</TH>
+</TR>
+<tr>
+<td width="25" align="center"><a title="Install 1828 Webster's" href="javascript:void(0)" onclick="addProvider('http://www.searchplugins.net/createos.aspx?number=10448','false','http://1828.mshaffer.com/favicon.ico','1828 Websters')">I</a> | <a title="View Source" href="http://www.searchplugins.net/createos.aspx?number=10448&amp;view=source">S</a></td>
+<td width="18" align="center"><img height="16" width="16" alt="1828 Webster's" src="../../favicon.ico"/></td>
+<td align="left"><span style="color: green;">1828 Webster's</span></td>
+</tr>
+</TABLE>
+<!-- FIRE FOX plugin //-->
+
+<BR /><BR />
+
+<!-- cut/paste code //-->
+<TABLE bgcolor="#ffffff" width="100%">
+<TR>
+	<TH valign="top" align="center">Add Search <BR />To Your Site</TH>
+	<TD align="right" valign="top"><SPAN id="plusMinus_sCode" onclick="showHideStuff('plusMinus_sCode','sCode'); myPos=getPositionDIV('plusMinus_sCode'); setPositionDIV('sCode',myPos.x + 20,myPos.y + 20);">[ + ]</SPAN></TD>
+</TR>
+<TR>
+	<TD colspan=2 align="center">
+		<DIV id="searchCode"><FORM name="formSearch1828" action="http://1828.mshaffer.com/1828.php" method="GET" target="_1828">
+
+					<input type="hidden" name="action" value ="search" />
+					<input type="hidden" name="data" value ="word," />
+
+				<input type="text" size=10 name="myWord" value="love" onfocus="this.select();" />					
+				<input type="button" value="GO!" onclick="(document.formSearch1828.data.value += document.formSearch1828.myWord.value); document.formSearch1828.submit();" />
+
+			</FORM>
+		</DIV>
+
+	</TD>
+</TR>
+
+	
+
+
+</TABLE>
+
+<DIV id="sCode" style="text-align: left; display: none; position: absolute; z-index: 333; width: 600px; height: 250px; background-color: #ffffff; border: medium double #6D7D3F;">
+	<CODE>
+	<SCRIPT>
+		var myCode = document.getElementById("searchCode").innerHTML;
+			myCode = myCode.split("<").join("&lt;");
+			myCode = myCode.split(">").join("&gt;");
+			myCode = myCode.split("\n").join("<BR />");
+		document.write(  myCode );
+	</SCRIPT>
+	</CODE>
+</DIV>
+
+<!-- cut/paste code //-->
+
+</TD>
+	</TR>
+</TABLE>
+
+<CENTER><TABLE width="810" align="center" cellpadding=5 cellspacing=0><TR><TD width="640" bgcolor="#99ccff"><CENTER><TABLE width="100%" align="center" cellpadding=5 cellspacing=0><TR><TD width="100%"><TABLE width="80%"><TR><TD width="70%" valign="bottom" align="center"><h3 class="news">News: <u>principle</u></h3></TD><TD valign="middle" align="right" style="font-size: 10px;">October 01, 2015<BR /> [12:13:36 AM] (PDT)</TD></TR></TABLE><BR /><BR /><DIV></table></td></tr></tbody></table></DIV></CENTER></TD><TD width=164>&nbsp;</TD></TR></TABLE>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-804100-1";
+urchinTracker();
+</script>
+
+
+<DIV id="_largeImage" style="display: none; position: absolute; z-index: 333;"></DIV>
+<BR /><BR /><BR /><BR />
+
+<CENTER><TABLE width=500 style="background-color:#ffffff;"><TR><TD valign="top"><DIV id="adNumber_1"><DIV class="adTitle" style="background-color: #cccccc;"><A href="http://e-transcriptiongroup.com/wordpress/contact-me/ " target="_self" class="addLink"> E-transcription Group contact </A></DIV><DIV class="adDescription"> Contact information for the E-transcription Group. Email with any questions today!</DIV></DIV><DIV id="adNumber_2"><DIV class="adTitle" style="background-color: #cccccc;"><A href="http://e-transcriptiongroup.com/wordpress/contact-me/ " target="_self" class="addLink"> Contact Me </A></DIV><DIV class="adDescription"> Ready to find out more about E-Transcription Group and the services we offer? Contact me.</DIV></DIV><DIV id="adNumber_3"><DIV class="adTitle" style="background-color: #cccccc;"><A href="http://e-transcriptiongroup.com/wordpress/contact-me/ " target="_self" class="addLink"> Contact Me </A></DIV><DIV class="adDescription"> Hi, my name is Charlene Erickson (or just “Char”), and I am the owner/founder of E-transcription group.</DIV></DIV></TD></TR></TABLE></CENTER>
+
+
+
+</BODY>
+</HTML>0.027866125106812|October 1, 2015 => 5:49 am

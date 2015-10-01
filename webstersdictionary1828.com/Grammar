@@ -1,0 +1,278 @@
+<!DOCTYPE html><html lang="en-US"><head><meta charset="utf-8" />
+<title>Websters Dictionary 1828 - Grammar</title>
+<meta name='viewport' content='initial-scale=1.0,width=device-width' />
+<meta name="description" content="Websters Dictionary 1828 – Online Edition is an excellent reference for classical literature, Bible studies, history papers, and the reading of America's national documents." />
+<meta name="keywords" content="Websters Dictionary 1828, American Dictionary of the English Language, online, free, search, dictonary, Online Edition, constitution, King James Bible, classical literature, Bible studies, history papers, national documents" />
+<link rel="shortcut icon" href="websters.ico?v=1" type="image/x-icon">
+<link rel="icon" href="websters.ico?v=1" type="image/x-icon">
+<link href="Content/css?v=LgwRJ5xo6DqJWS7PS0NzNoPwc3jpSMpclCwtgp7w8n01" rel="stylesheet"/>
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+</head><body itemscope itemtype="http://schema.org/WebPage"><div id="spinner"><img src="load.gif?v=1" alt="" /><p>Loading...</p></div>
+<div class="header"><div id="pageheading" class="centertext posrelative">
+<div class="firsthead dark-green hidden-phone"><h1>Webster&#39;s&nbsp;Dictionary&nbsp;1828 - Online&nbsp;Edition</h1></div>
+<div class="firsthead dark-green visible-phone"><h1>Webster&#39;s&nbsp;Dictionary&nbsp;1828</h1></div>
+<div class="secondhead cream hidden-phone"><div class="container posrelative">
+<img class="img-book visible-desktop" src="Content/images/WebstersDictionary1828.png" alt="Americal Dictionary of the English Language" />
+<h2>American Dictionary<br /><span class="smallhead">OF THE</span><br />English Language</h2></div></div>
+<div class="thirdhead dim-green hidden-phone"></div><div class="container white searchcontent">
+<div class="row-fluid"><div class="span12"><div class="visible-phone phonebuttons">
+<button id="PhoneHomeButton" type="button" class="btn"><span><i class="icon-home"></i> Home</span></button>
+<button id="PhoneMenuButton" type="button" class="btn"><span><i class="icon-align-justify"></i> Menu</span></button></div>
+<div class="visible-phone clear"></div>
+<div class="searchhead">Dictionary&nbsp;Search</div><div class="input-append">
+<input id="SearchText" type="text" class="searchtext">
+<button id="SearchButton" type="button" class="btn"><i class="icon-search"></i></button></div></div></div></div>
+<div class="visible-phone"><div id="PhoneMenu" class="phonemenu"><p>Menu</p><ul>
+<li><a class="aniload" href="Preface">Preface</a></li>
+<li><a class="aniload" href="NoahWebster">History</a></li>
+<li><a class="aniload" href="Quotes">Quotations</a></li>
+<li><a class="aniload" href="Constitution">Constitution</a></li>
+<li><a class="aniload" href="Bible">The Bible</a></li>
+<li><a class="aniload" href="Literature">Literature</a></li>
+<li><a class="aniload" href="Grammar">Grammar</a></li>
+<li><a class="aniload" href="Education">Education</a></li>
+<li><a class="aniload" href="Science">Science</a></li>
+<li><a class="aniload" href="Mathematics">Mathematics</a></li>
+<li><a class="aniload" href="Medical">Medical</a></li></ul></div></div></div></div>
+
+<div class="container white"><div class="padbottom container-fluid">
+<div class="row-fluid"><div class="span3 hidden-phone"><div class="leftcolumn"><div class="sitemap"><ul>
+<li><a class="aniload" href="index.html">Home</a></li>
+<li><a class="aniload" href="Preface">Preface</a></li>
+<li><a class="aniload" href="NoahWebster">History</a></li>
+<li><a class="aniload" href="Quotes">Quotations</a></li>
+<li><a class="aniload" href="Constitution">Constitution</a></li>
+<li><a class="aniload" href="Bible">The Bible</a></li>
+<li><a class="aniload" href="Literature">Literature</a></li>
+<li><a class="aniload" href="Grammar">Grammar</a></li>
+<li><a class="aniload" href="Education">Education</a></li>
+<li><a class="aniload" href="Science">Science</a></li>
+<li><a class="aniload" href="Mathematics">Mathematics</a></li>
+<li><a class="aniload" href="Medical">Medical</a></li>
+</ul></div></div>
+</div>
+<div class="span6"><div class="maincontent">
+<div id="MainContent">
+<div class="searchheadword">Definitions of English Grammar:</div>
+<div>Words whose definitions contain a reference to "grammar":<br />&nbsp;</div>
+<div id="SearchResults" class="searchresults">
+<div class="relatedword"><a href='Grammar#'>Absolute</a></div>
+<div class="relatedword"><a href='Grammar#'>Accident</a></div>
+<div class="relatedword"><a href='Grammar#'>Accusative</a></div>
+<div class="relatedword"><a href='Grammar#'>Accusatively</a></div>
+<div class="relatedword"><a href='Grammar#'>Active</a></div>
+<div class="relatedword"><a href='Grammar#'>Adjective</a></div>
+<div class="relatedword"><a href='Grammar#'>Adjunct</a></div>
+<div class="relatedword"><a href='Grammar#'>Adnoun</a></div>
+<div class="relatedword"><a href='Grammar#'>Adverb</a></div>
+<div class="relatedword"><a href='Grammar#'>Anomalous</a></div>
+<div class="relatedword"><a href='Grammar#'>Anomaly</a></div>
+<div class="relatedword"><a href='Grammar#'>Antecedent</a></div>
+<div class="relatedword"><a href='Grammar#'>Anteposition</a></div>
+<div class="relatedword"><a href='Grammar#'>Antiptosis</a></div>
+<div class="relatedword"><a href='Grammar#'>Antistrophe</a></div>
+<div class="relatedword"><a href='Grammar#'>Apex</a></div>
+<div class="relatedword"><a href='Grammar#'>Apostrophy</a></div>
+<div class="relatedword"><a href='Grammar#'>Apposition</a></div>
+<div class="relatedword"><a href='Grammar#'>Aptote</a></div>
+<div class="relatedword"><a href='Grammar#'>Article</a></div>
+<div class="relatedword"><a href='Grammar#'>Asper</a></div>
+<div class="relatedword"><a href='Grammar#'>Asyndeton</a></div>
+<div class="relatedword"><a href='Grammar#'>Attributive</a></div>
+<div class="relatedword"><a href='Grammar#'>Auxiliar</a></div>
+<div class="relatedword"><a href='Grammar#'>Begin</a></div>
+<div class="relatedword"><a href='Grammar#'>Case</a></div>
+<div class="relatedword"><a href='Grammar#'>Causal</a></div>
+<div class="relatedword"><a href='Grammar#'>Characteristic</a></div>
+<div class="relatedword"><a href='Grammar#'>Circumflex</a></div>
+<div class="relatedword"><a href='Grammar#'>Collective</a></div>
+<div class="relatedword"><a href='Grammar#'>Colon</a></div>
+<div class="relatedword"><a href='Grammar#'>Common</a></div>
+<div class="relatedword"><a href='Grammar#'>Comparative</a></div>
+<div class="relatedword"><a href='Grammar#'>Compare</a></div>
+<div class="relatedword"><a href='Grammar#'>Comparison</a></div>
+<div class="relatedword"><a href='Grammar#'>Compound</a></div>
+<div class="relatedword"><a href='Grammar#'>Concord</a></div>
+<div class="relatedword"><a href='Grammar#'>Concordance</a></div>
+<div class="relatedword"><a href='Grammar#'>Conditional</a></div>
+<div class="relatedword"><a href='Grammar#'>Conjugate</a></div>
+<div class="relatedword"><a href='Grammar#'>Conjugation</a></div>
+<div class="relatedword"><a href='Grammar#'>Conjunction</a></div>
+<div class="relatedword"><a href='Grammar#'>Conjunctive</a></div>
+<div class="relatedword"><a href='Grammar#'>Connective</a></div>
+<div class="relatedword"><a href='Grammar#'>Construction</a></div>
+<div class="relatedword"><a href='Grammar#'>Continuative</a></div>
+<div class="relatedword"><a href='Grammar#'>Contraction</a></div>
+<div class="relatedword"><a href='Grammar#'>Copulative</a></div>
+<div class="relatedword"><a href='Grammar#'>Could</a></div>
+<div class="relatedword"><a href='Grammar#'>Crasis</a></div>
+<div class="relatedword"><a href='Grammar#'>Dative</a></div>
+<div class="relatedword"><a href='Grammar#'>Declension</a></div>
+<div class="relatedword"><a href='Grammar#'>Declination</a></div>
+<div class="relatedword"><a href='Grammar#'>Defective</a></div>
+<div class="relatedword"><a href='Grammar#'>Definitive</a></div>
+<div class="relatedword"><a href='Grammar#'>Dental</a></div>
+<div class="relatedword"><a href='Grammar#'>Deponent</a></div>
+<div class="relatedword"><a href='Grammar#'>Derivation</a></div>
+<div class="relatedword"><a href='Grammar#'>Diastoly</a></div>
+<div class="relatedword"><a href='Grammar#'>Diminutive</a></div>
+<div class="relatedword"><a href='Grammar#'>Diptote</a></div>
+<div class="relatedword"><a href='Grammar#'>Discretive</a></div>
+<div class="relatedword"><a href='Grammar#'>Disjunctive</a></div>
+<div class="relatedword"><a href='Grammar#'>Distributive</a></div>
+<div class="relatedword"><a href='Grammar#'>Elision</a></div>
+<div class="relatedword"><a href='Grammar#'>Ellipsis</a></div>
+<div class="relatedword"><a href='Grammar#'>Enallage</a></div>
+<div class="relatedword"><a href='Grammar#'>Enclitic</a></div>
+<div class="relatedword"><a href='Grammar#'>Enclitics</a></div>
+<div class="relatedword"><a href='Grammar#'>Ending</a></div>
+<div class="relatedword"><a href='Grammar#'>Etymology</a></div>
+<div class="relatedword"><a href='Grammar#'>Exclamation</a></div>
+<div class="relatedword"><a href='Grammar#'>Feminine</a></div>
+<div class="relatedword"><a href='Grammar#'>Fiftieth</a></div>
+<div class="relatedword"><a href='Grammar#'>Figure</a></div>
+<div class="relatedword"><a href='Grammar#'>Form</a></div>
+<div class="relatedword"><a href='Grammar#'>Formation</a></div>
+<div class="relatedword"><a href='Grammar#'>Formative</a></div>
+<div class="relatedword"><a href='Grammar#'>Frequentative</a></div>
+<div class="relatedword"><a href='Grammar#'>Future</a></div>
+<div class="relatedword"><a href='Grammar#'>Gender</a></div>
+<div class="relatedword"><a href='Grammar#'>Genitive</a></div>
+<div class="relatedword"><a href='Grammar#'>Gerund</a></div>
+<div class="relatedword"><a href='Grammar#'>Govern</a></div>
+<div class="relatedword"><a href='Grammar#'>Government</a></div>
+<div class="relatedword"><a href='Grammar#'>Grammar</a></div>
+<div class="relatedword"><a href='Grammar#'>Grammarian</a></div>
+<div class="relatedword"><a href='Grammar#'>Have</a></div>
+<div class="relatedword"><a href='Grammar#'>Heteroclite</a></div>
+<div class="relatedword"><a href='Grammar#'>Hypallage</a></div>
+<div class="relatedword"><a href='Grammar#'>Hyperbate</a></div>
+<div class="relatedword"><a href='Grammar#'>Ill</a></div>
+<div class="relatedword"><a href='Grammar#'>Imperative</a></div>
+<div class="relatedword"><a href='Grammar#'>Imperfect</a></div>
+<div class="relatedword"><a href='Grammar#'>Impersonal</a></div>
+<div class="relatedword"><a href='Grammar#'>Indicative</a></div>
+<div class="relatedword"><a href='Grammar#'>Infinitive</a></div>
+<div class="relatedword"><a href='Grammar#'>Inflect</a></div>
+<div class="relatedword"><a href='Grammar#'>Inflection</a></div>
+<div class="relatedword"><a href='Grammar#'>Intransitive</a></div>
+<div class="relatedword"><a href='Grammar#'>Inversion</a></div>
+<div class="relatedword"><a href='Grammar#'>Involution</a></div>
+<div class="relatedword"><a href='Grammar#'>Irregular</a></div>
+<div class="relatedword"><a href='Grammar#'>Liquid</a></div>
+<div class="relatedword"><a href='Grammar#'>Masculine</a></div>
+<div class="relatedword"><a href='Grammar#'>Metaplasm</a></div>
+<div class="relatedword"><a href='Grammar#'>Mode</a></div>
+<div class="relatedword"><a href='Grammar#'>Mute</a></div>
+<div class="relatedword"><a href='Grammar#'>Name</a></div>
+<div class="relatedword"><a href='Grammar#'>Neuter</a></div>
+<div class="relatedword"><a href='Grammar#'>Noun</a></div>
+<div class="relatedword"><a href='Grammar#'>Number</a></div>
+<div class="relatedword"><a href='Grammar#'>Object</a></div>
+<div class="relatedword"><a href='Grammar#'>Objective</a></div>
+<div class="relatedword"><a href='Grammar#'>Oblike</a></div>
+<div class="relatedword"><a href='Grammar#'>Onomatope</a></div>
+<div class="relatedword"><a href='Grammar#'>Optative</a></div>
+<div class="relatedword"><a href='Grammar#'>Paradigm</a></div>
+<div class="relatedword"><a href='Grammar#'>Paragoge</a></div>
+<div class="relatedword"><a href='Grammar#'>Parathesis</a></div>
+<div class="relatedword"><a href='Grammar#'>Parelcon</a></div>
+<div class="relatedword"><a href='Grammar#'>Parse</a></div>
+<div class="relatedword"><a href='Grammar#'>Part</a></div>
+<div class="relatedword"><a href='Grammar#'>Participle</a></div>
+<div class="relatedword"><a href='Grammar#'>Particle</a></div>
+<div class="relatedword"><a href='Grammar#'>Partitive</a></div>
+<div class="relatedword"><a href='Grammar#'>Passive</a></div>
+<div class="relatedword"><a href='Grammar#'>Perfect</a></div>
+<div class="relatedword"><a href='Grammar#'>Person</a></div>
+<div class="relatedword"><a href='Grammar#'>Personal</a></div>
+<div class="relatedword"><a href='Grammar#'>Plural</a></div>
+<div class="relatedword"><a href='Grammar#'>Position</a></div>
+<div class="relatedword"><a href='Grammar#'>Positive</a></div>
+<div class="relatedword"><a href='Grammar#'>Postfix</a></div>
+<div class="relatedword"><a href='Grammar#'>Potential</a></div>
+<div class="relatedword"><a href='Grammar#'>Preposition</a></div>
+<div class="relatedword"><a href='Grammar#'>Present</a></div>
+<div class="relatedword"><a href='Grammar#'>Preterimperfect</a></div>
+<div class="relatedword"><a href='Grammar#'>Preterit</a></div>
+<div class="relatedword"><a href='Grammar#'>Primitive</a></div>
+<div class="relatedword"><a href='Grammar#'>Privative</a></div>
+<div class="relatedword"><a href='Grammar#'>Pronoun</a></div>
+<div class="relatedword"><a href='Grammar#'>Punctuation</a></div>
+<div class="relatedword"><a href='Grammar#'>Quantity</a></div>
+<div class="relatedword"><a href='Grammar#'>Regimen</a></div>
+<div class="relatedword"><a href='Grammar#'>Relative</a></div>
+<div class="relatedword"><a href='Grammar#'>Rule</a></div>
+<div class="relatedword"><a href='Grammar#'>Singular</a></div>
+<div class="relatedword"><a href='Grammar#'>Subject</a></div>
+<div class="relatedword"><a href='Grammar#'>Subjunctive</a></div>
+<div class="relatedword"><a href='Grammar#'>Substantive</a></div>
+<div class="relatedword"><a href='Grammar#'>Substantively</a></div>
+<div class="relatedword"><a href='Grammar#'>Substitution</a></div>
+<div class="relatedword"><a href='Grammar#'>Superlative</a></div>
+<div class="relatedword"><a href='Grammar#'>Supine</a></div>
+<div class="relatedword"><a href='Grammar#'>Suppression</a></div>
+<div class="relatedword"><a href='Grammar#'>Syllepsis</a></div>
+<div class="relatedword"><a href='Grammar#'>Synalepha</a></div>
+<div class="relatedword"><a href='Grammar#'>Syncopy</a></div>
+<div class="relatedword"><a href='Grammar#'>Syntax</a></div>
+<div class="relatedword"><a href='Grammar#'>Systole</a></div>
+<div class="relatedword"><a href='Grammar#'>Temporal</a></div>
+<div class="relatedword"><a href='Grammar#'>Tense</a></div>
+<div class="relatedword"><a href='Grammar#'>Term</a></div>
+<div class="relatedword"><a href='Grammar#'>Termination</a></div>
+<div class="relatedword"><a href='Grammar#'>Tetraptote</a></div>
+<div class="relatedword"><a href='Grammar#'>Theme</a></div>
+<div class="relatedword"><a href='Grammar#'>Time</a></div>
+<div class="relatedword"><a href='Grammar#'>Transitive</a></div>
+<div class="relatedword"><a href='Grammar#'>Transpose</a></div>
+<div class="relatedword"><a href='Grammar#'>Transposition</a></div>
+<div class="relatedword"><a href='Grammar#'>Triptote</a></div>
+<div class="relatedword"><a href='Grammar#'>Unaugmented</a></div>
+<div class="relatedword"><a href='Grammar#'>Variation</a></div>
+<div class="relatedword"><a href='Grammar#'>Verb</a></div>
+<div class="relatedword"><a href='Grammar#'>Verbal</a></div>
+<div class="relatedword"><a href='Grammar#'>Vocative</a></div>
+<div class="relatedword"><a href='Grammar#'>Voice</a></div>
+<div class="relatedword"><a href='Grammar#'>Went</a></div>
+<div class="relatedword"><a href='Grammar#'>Zeugma</a></div>
+</div>
+<p>&nbsp;</p>
+</div>
+</div></div>
+<div class="span3 hidden-phone"><div class="rightcolumn"><img id="DictionaryImg" src="Content/images/KjvdAd1.png" alt="King James Bible Dictionary" /><ul>
+<li>Every word in the Bible</li>
+<li>One Easy Format.</li>
+<li>People, Places, Culture</li>
+<li>Includes:</li>
+<li>Webster's 1828 Dictionary</li>
+<li>Easton's Bible Dictionary</li>
+<li>Hitchcock's Bible Names</li>
+<li>Smith's Bible Dictionary</li>
+<li>Strong's Concordance</li>
+</ul><div class="centertext" style="margin-top:22px;"><button id="DictionaryButton" type="button" class="btn"><span><i class="icon-book"></i> Try it Now...</span></button></div></div>
+</div>
+</div></div></div><div class="footer"><div class="footerlist centertext"><ul class="footerlinks">
+<li><a class="aniload" href="index.html">Home</a></li>
+<li><a class="aniload" href="Preface">Preface</a></li>
+<li><a class="aniload" href="NoahWebster">History</a></li>
+<li><a class="aniload" href="Quotes">Quotations</a></li>
+<li><a class="aniload" href="Terms">Terms and Conditions</a></li></ul></div>
+<div class="extlinks centertext hidden-phone">
+<a href="http://www.thekingsbible.com" rel="external" target="_blank" title="The Kings Bible">
+<img src="Content/Images/thekingsbible144.gif" alt="The Kings Bible" />
+</a>&nbsp;<a href="https://www.facebook.com/WebstersDictionary1828" rel="external" target="_blank" title="Find us on Facebook">
+<img src="Content/Images/facebook.gif" alt="Find us on Facebook" /></a></div>
+<div class="extlinks centertext visible-phone">
+<a href="https://m.facebook.com/WebstersDictionary1828?ref=hl" target="_blank"><img src="Content/images/facebook.gif" alt="Find us on Facebook" /></a>&nbsp;
+<a href="http://thekingsbible.com/mobile" target="_blank"><img src="Content/images/thekingsbible144.gif" alt="King James Bible" /></a>
+</div></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="bundles/websters?v=L3ArvXIXnxQcFGBTQqC8aWez2g_zVw4IBff5VjzZ3gY1"></script>
+
+
+</body></html>
