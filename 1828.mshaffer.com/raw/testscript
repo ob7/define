@@ -1,0 +1,5 @@
+#!/bin/bash
+file="$1"
+echo "filename is $file"
+newname=${1%.*}
+echo "$newname"

@@ -1,0 +1,5 @@
+#!/bin/bash
+for file in *; do
+word="${file%.*}"
+lynx --dump $file >/home/arkad/commands/define/words/$word
+done
