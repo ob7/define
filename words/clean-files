@@ -1,4 +1,0 @@
-#!/bin/bash
-for file in *; do
-cat "$file" | head -n -3 >/home/arkad/commands/define/definitions/$file
-done
