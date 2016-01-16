@@ -1,3 +1,0 @@
-#!/bin/bash
-for file in *; do
-word="${file%.*}"
