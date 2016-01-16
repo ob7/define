@@ -1,0 +1,5 @@
+#!/bin/bash
+cd 1828-dictionary
+for file in *; do
+	echo "$file" >>../word-list
+done
