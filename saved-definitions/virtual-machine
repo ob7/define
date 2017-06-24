@@ -1,0 +1,3 @@
+A virtual machine (VM) is a software container (sometimes called a "guest") that runs on a host physical computer and that behaves as if it were a physical computer itself. VMs consist of an operating system plus CPU, memory (RAM) and networking resources, and software applications.
+
+Source:https://docs.citrix.com/de-de/xencenter/6-1/xs-xc-vms/xs-xc-vms-about.html
